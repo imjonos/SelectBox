@@ -5,6 +5,7 @@ iOS 7 SelectBox view
 
 How to use:
 =============================
+<pre>
 Delegate 
 
 SelectBoxViewDelegate
@@ -40,3 +41,4 @@ self.selectBox.parentNavigationController = self.navigationController;
 self.selectBox.delegate = self;
 [self.selectBox setSelectBoxTag:0];
 [self.view addSubview:self.selectBox];
+</pre>
