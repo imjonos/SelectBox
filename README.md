@@ -1,4 +1,4 @@
-ComboBox
+SelectBox
 ========
 
-iOS 7 ComboBox view
+iOS 7 SelectBox view
