@@ -40,5 +40,6 @@ self.selectBox = [[SelectBoxView alloc] initWithFrame:CGRectMake(0,10, self.view
 self.selectBox.parentNavigationController = self.navigationController;
 self.selectBox.delegate = self;
 [self.selectBox setSelectBoxTag:0];
+//self.selectBox.isCheck = NO; //optional
 [self.view addSubview:self.selectBox];
 </pre>
