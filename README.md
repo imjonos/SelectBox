@@ -15,11 +15,12 @@ method:
     
 }
 
-
+//////////////////////////
 in .h file:
 
 @property SelectBoxView *selectBox;
 
+//////////////////////////
 in .m file:
 
 NSMutableArray *arrayData = [[NSMutableArray alloc] init];
@@ -32,7 +33,6 @@ NSArray *values = @[@"value 1", @"value 2", @"value 3"];
 [sectionArray addObject:titles];
 [sectionArray addObject:values];
 
-    
 [arrayData addObject:sectionArray];
 
 self.selectBox = [[SelectBoxView alloc] initWithFrame:CGRectMake(0,10, self.view.frame.size.width,30) andData:arrayData andSection:0 andRow:0  andImage:@"ico.png"];
