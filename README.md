@@ -6,7 +6,7 @@ iOS 7 SelectBox view
 How to use:
 
 Delegate 
-----------------------------------------------------------------------------------------------------------
+=============================
 SelectBoxViewDelegate
 
 method:
@@ -14,7 +14,7 @@ method:
 - (void) setSelectRow: (UITableView *)aTableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
 }
-----------------------------------------------------------------------------------------------------------
+============================
 
 in .h file:
 
